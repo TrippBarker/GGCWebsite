@@ -1,6 +1,7 @@
 #propImg {
     width: 300px;
     padding: 30px;
+    border-radius: 3em;
 }
 
 .property {
@@ -8,5 +9,14 @@
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
+    padding: 30px;
+    margin: 30px;
+    border: 1px solid bisque;
+    border-radius: 3em;
+    background-color: bisque;
+    justify-content: flex-start;
+}
+
+.propDets {
     padding: 30px;
 }
