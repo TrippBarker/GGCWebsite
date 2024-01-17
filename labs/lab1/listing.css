@@ -1,0 +1,12 @@
+#propImg {
+    width: 300px;
+    padding: 30px;
+}
+
+.property {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 30px;
+}
