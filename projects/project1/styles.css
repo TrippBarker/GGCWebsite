@@ -1,31 +1,35 @@
+
+
 nav {
     min-height: 3rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: rgb(160, 188, 188);
+    background-color: #4663ac;
     justify-content: space-evenly;
     align-items: center;
     font-size: 2em;
     font-weight: bold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Oswald', sans-serif;;
     border-radius: 1em;
 }
 
 nav a {
-    color: aliceblue;
+    color: #e1f1fd;
     text-decoration: none;
-    margin-left: 1em;
-    margin-right: 1em;
-    transition: 0.1s;
+    margin: 0em .5em 0em .5em;
+    padding: .25em 0em .25em 0em;
+    transition: 0.0s;
 }
 
 
 a:hover{
+    scale: 125%;
+    rotate: -1deg;
     color: transparent;
     transition: 0.5s;
     left: 0;
-    background-image: linear-gradient(to bottom right, rgb(146, 141, 184), rgb(16, 7, 96));
+    background-image: linear-gradient(to bottom, #e1f1fd, #7e93a7);
     background-clip: text;
     -webkit-background-clip: text;
 }
