@@ -1,3 +1,7 @@
+h2 {
+    font-weight: 900;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -77,6 +81,50 @@ section {
 .jobheader {
     display: flex;
     align-items: baseline;
+}
+
+#skills {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f4fafe;
+    border-radius: 2em;
+}
+
+#skills ul {
+    width: 15rem;
+}
+
+#project {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #f4fafe;
+    border-radius: 2em;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+#projectimgs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#projectimgs img {
+    height: 10em;
+    width: 10em;
+    margin: 1em;
+    border: 3px solid #4663ac;
+    border-radius: 1em;
+}
+
+#projectimgs img:hover {
+    transition: 1.5s;
+    scale: 125%;
+}
+
+#project p {
+    width: 75%;
 }
 
 footer {
