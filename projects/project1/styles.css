@@ -1,6 +1,26 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
 
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 85%;
+}
+
+#profilepic {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 3rem;
+    background-color: #4663ac;
+}
 
 nav {
+    width: 85%;
     min-height: 3rem;
     display: flex;
     flex-direction: row;
@@ -9,8 +29,7 @@ nav {
     justify-content: space-evenly;
     align-items: center;
     font-size: 2em;
-    font-weight: bold;
-    font-family: 'Oswald', sans-serif;;
+    font-weight: 900;
     border-radius: 1em;
 }
 
@@ -23,7 +42,7 @@ nav a {
 }
 
 
-a:hover{
+nav a:hover{
     scale: 125%;
     rotate: -1deg;
     color: transparent;
@@ -32,4 +51,40 @@ a:hover{
     background-image: linear-gradient(to bottom, #e1f1fd, #7e93a7);
     background-clip: text;
     -webkit-background-clip: text;
+}
+
+section {
+    margin-top: 1em;
+    margin-bottom: 3rem;
+    background-color: #e1f1fd;
+    color: #4663ac;
+    border-radius: 2em;
+    max-width: 75%;
+    padding: 1em;
+}
+
+#jobs p {
+    padding-left: 2em;
+}
+
+.job {
+    background-color: #f4fafe;
+    border-radius: 2em;
+    padding: 2em;
+    margin-bottom: 2em;
+}
+
+.jobheader {
+    display: flex;
+    align-items: baseline;
+}
+
+footer {
+    margin-top: 3rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 3rem;
+    background-color: #4663ac;
 }
