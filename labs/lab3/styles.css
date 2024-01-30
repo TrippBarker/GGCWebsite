@@ -1,0 +1,59 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: 3rem;
+    color: #ffffff;
+}
+
+h2 {
+    padding: 0;
+    margin: 0;
+    color: #5050e2;
+    font-size: 2rem;
+}
+
+header {
+    padding: 1rem 0;
+    background-color: #00008b;
+    margin-bottom: 1rem;
+}
+
+nav {
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    font-weight: bolder;
+    background-color: #add8e6;
+    margin-bottom: 1rem;
+}
+
+#maincard , #contactcard {
+    font-family: sans-serif;
+    margin-top: 1rem;
+    font-size: 1.25rem;
+    color: #5b5b5b;
+}
+
+#companyname {
+    font-size: 1.5rem;
+    font-weight: 200;
+    color: #5050e2;
+}
+
+#maincard h3, #maincard p {
+    display: inline;
+    vertical-align: bottom;
+}
+
+#maincard dt {
+    color: #00008b;
+    font-weight: bolder;
+}
+
+footer p{
+    font-size: 1rem;
+    text-align: center;
+}
