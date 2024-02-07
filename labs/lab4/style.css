@@ -12,6 +12,7 @@ h1 {
 }
 
 body {
+    margin-top: 2rem;
     margin-left: auto;
     margin-right: auto;
     background-image: url(assets/background.gif);
