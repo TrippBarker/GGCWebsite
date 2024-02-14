@@ -1,0 +1,39 @@
+html {
+    background-color: #000033;
+    background-image: url("resources/primehorizontal.png");
+    display: flex;
+    justify-content: center;
+    color: #48721C;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+body {
+    width: 80%;
+    background-color: #FFFFCC;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: .5rem .5rem 0 #00332B;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    color: #000033;
+    font-size: 2rem;
+}
+
+.listing h2 {
+}
+
+footer {
+    font-size: small;
+    font-style: italic;
+}
+
+#footerNav {
+    margin: 0;
+    font-weight: bold;
+}
+
+#copyright {
+    margin: 0;
+}
