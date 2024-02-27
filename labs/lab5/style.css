@@ -1,0 +1,141 @@
+* {
+    font-family: Verdana, Arial, sans-serif;
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+    margin-bottom: .25rem;
+    margin-left: .50rem;
+}
+
+body {
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(assets/background.gif);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    box-shadow: 4px 4px 5px black;
+}
+
+header, main, footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    flex-direction: row;
+    color: #330000;
+    background-color: #FFFFCC;
+    font-size: 1.25rem;
+}
+
+nav {
+    display: flex;
+    width: 15%;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+nav ul {
+    padding: 0;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+nav a {
+    text-decoration: none;
+    color: #976842;
+}
+
+nav a:visited {
+    color: #CCAA66;
+}
+
+nav a:hover {
+    color: #330000;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+}
+
+#content {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F2EAB7;
+    padding: 1rem;
+}
+
+dt {
+    font-weight: bolder;
+}
+
+#offeringsAndContact {
+    margin-left: 1rem;
+}
+
+#image {
+    margin-right: 1rem;
+}
+
+header, footer, .eventTitle {
+    background-color: #CCAA66;
+}
+
+footer {
+    font-size: .85rem;
+    text-align: center;
+}
+
+#eventContent {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#events {
+    width: 100%;
+}
+
+.eventCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.eventTitle {
+    width: 100%;
+}
+
+.eventDetails {
+    width: 65%;
+    display: flex;
+    align-items: flex-end;
+    padding: 1rem;
+}
+
+.eventDetails p {
+    margin-bottom: 0;
+    margin-left: .5rem;
+}
+
+footer a {
+    color: #FFFFCC;
+}
