@@ -59,7 +59,7 @@ nav li {
 }
 
 #content {
-    width: 50%;
+    width: 60%;
     background-color: #273d6c;
     border-radius: 0 1rem 1rem 0;
 }
@@ -101,7 +101,7 @@ nav li {
 }
 
 #skillsCard li {
-    width: 11rem;
+    width: 13rem;
     padding: .25rem;
 }
 
