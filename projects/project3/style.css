@@ -4,7 +4,7 @@ body {
     flex-direction: row;
     justify-content: center;
     background-color: #4b6296;
-    min-height: 97.5vh;
+    min-height: 92vh;
     max-height: 100%;
 }
 
@@ -126,4 +126,20 @@ nav li {
     margin: .25rem;
     width: 10rem;
     height: 10rem;
+}
+
+footer {
+    margin-top: 3rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 3rem;
+    background-color: #4663ac;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #ffffff;
+    font-weight: 700;
+    align-items: flex-end;
 }
