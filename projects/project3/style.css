@@ -1,0 +1,129 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #4b6296;
+    min-height: 97.5vh;
+    max-height: 100%;
+}
+
+header {
+    width: 25%;
+    max-width: 20rem;
+    min-width: 15rem;
+}
+
+nav {
+    width: 100%;
+    background-color: #81a0e4;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 1rem 0 0 1em;
+}
+
+nav a {
+    text-decoration: none;
+    transition: .25s;
+    color: #273d6c;
+}
+
+nav a:visited {
+    color: #4e154e;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li:hover {
+    background-color: #273d6c;
+    border: 1px solid black;
+    border-radius: .25rem;
+}
+
+nav li {
+    background-color: transparent;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    transition: .25s;
+    border: 1px solid #81a0e4;
+}
+
+#content {
+    width: 50%;
+    background-color: #273d6c;
+    border-radius: 0 1rem 1rem 0;
+}
+
+.photoCard {
+    background-color: #81a0e4;
+    border-radius: 0 .5rem .5rem 0;
+    padding: 1rem;
+    display: flex;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+
+.photoDets {
+    width: 50%;
+}
+
+.photoCard img {
+    float: right;
+    width: 50%;
+    border-radius: 0 .25rem .25rem 0;
+}
+
+#eduCard, .expCard, #skillsCard, #projectsCard, #contactCard {
+    background-color: #81a0e4;
+    border-radius: 0 .5rem .5rem 0;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.expTitle {
+    color: #111f3d;
+}
+
+#skillsCard ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#skillsCard li {
+    width: 11rem;
+    padding: .25rem;
+}
+
+.projectCard {
+    margin-bottom: 1rem;
+    color: #ffffff;
+    background-color: #111f3d;
+    padding: 1rem;
+    border-radius: 0 .25rem .25rem 0;
+}
+
+.projectImgs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    overflow-x: scroll;
+}
+
+.projectImgs img {
+    border-radius: .25rem;
+    margin: .25rem;
+    width: 10rem;
+    height: 10rem;
+}
