@@ -1,0 +1,97 @@
+body {
+    background-color: pink;
+    margin: 3rem 2rem 0 2rem;
+    font-family: monospace;
+}
+
+#outerTable, #outerTable th, #outerTable td {
+    border: 1px solid black;
+}
+
+#innerTable {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#innerTable, #innerTable th, #innerTable td {
+    background-color: grey;
+    border: none;
+    border-collapse: collapse;
+}
+
+#innerTableHeader {
+    font-weight: bolder;
+}
+
+#innerTableHeader, #innerTableFooter {
+    border-top: 7px double blue;
+    border-bottom: 7px double blue;
+}
+
+#innerTableHeader td, #outerTableHeader {
+    text-align: center;
+}
+
+#innerTable td {
+    border-bottom: 2px dotted blue;
+}
+
+#innerTable .monthCell {
+    border-bottom: 2px solid blue;
+    background-color: grey !important;
+}
+
+#innerTable p,  #outerTableHeader p {
+    padding: 0;
+    margin: 0;
+}
+
+.blue td{
+    background-color: skyblue !important;
+}
+
+.white td{
+    background-color: white !important;
+}
+
+#navCol {
+    width: 10%;
+    background-image: url("bluesky.jpg");
+    color: white;
+}
+
+#total {
+    width: 15%;
+    background-color: yellow !important;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+}
+
+input {
+    all: unset;
+    width: 100%;
+    text-align: center;
+    border: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+  }
+
+.centerCell {
+    text-align: center;
+}
+
+.totCell {
+    background-color: red !important;
+}
