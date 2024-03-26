@@ -1,0 +1,75 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1, h2 {
+    margin: 10px;
+}
+
+table {
+    border: none;
+    width: 800px;
+}
+
+table tr, table th, table td {
+    border: none;
+}
+
+#transcript {
+    border: 5px solid #003300;
+}
+
+#semesterTitle {
+    background-color: #009900;
+    color: white;
+}
+
+.center {
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#transcript thead, #transcript .overall {
+    background-color: #003300;
+    color: white;
+}
+
+table .course:nth-of-type(even) {
+    background-color: lightgray;
+}
+
+progress {
+    width: 100px;
+    height: 7px;
+    background-color: #003300;
+    border: 1px solid lightgray;
+    border-radius: 7px;
+    margin-bottom: 3.5px;
+}
+
+progress::-webkit-progress-value {
+    background-color: #009900;
+    border-radius: 7px;
+}
+
+progress::-webkit-progress-bar {
+    background-color: rgb(235, 232, 232);
+    border-radius: 7px;
+}
+
+#footerTable {
+    background-color: #003300;
+    color: white;
+    margin-top: 15px;
+    padding: 10px;
+}
