@@ -1,0 +1,45 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+table {
+    border: 5px solid darkblue;
+    width: 500px;
+}
+
+table th, table td {
+    border: 1px solid darkblue;
+}
+
+#header {
+    background-color: darkblue !important;
+    color: white !important;
+}
+
+.week {
+    background-color: lightgray;
+}
+
+.selected {
+    background-color: yellow;
+}
+
+tbody tr:nth-of-type(even){
+    background-color: lightgray;
+}
+
+#notes {
+    background-color: blue;
+    color: white;
+}
