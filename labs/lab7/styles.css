@@ -1,0 +1,4 @@
+#personalDets, #commentSect {
+    display: flex;
+    flex-direction: column;
+}
