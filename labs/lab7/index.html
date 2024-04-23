@@ -3,29 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
 </head>
 <body>
-    <header>
-        <h1>Fish Creek Animal Clinic</h1>
-    </header>
-    <main>
-        <h2>Ask the Vet</h2>
-        <dl>
-            <dt>Our dog, Sparky, likes to eat whatever the kids are snacking on. Is it OK for the dog to eat chocolate?</dt>
-            <dd>Chocolate is toxic to dogs. Please do not feed your dog chocolate. Try playing a game with your children - when you feed them people treats, they can feed Sparky dog treats.</dd>
-        </dl>
-        <h3>Sparky Speaks!</h3>
-        <div id="content">
-            <img src="resources/dog.gif" alt="">
-            <audio controls>
-                <source src="resources/sparkymp3.mp3">
-            </audio>
-            <video controls>
-                <source src="resources/sparkym4v.m4v">
-            </video>
+    <form action="" id="detailsForm">
+        <fieldset id="personalDets">
+            <legend>Personal information</legend>
+            <div>
+                <label for="fName">First Name: </label>
+                <input type="text" name="fName" id="fName">
+            </div>
+            <br>
+            <div>
+                <label for="lName">Last Name: </label>
+                <input type="text" name="lName" id="lName">
+            </div>
+            <br>
+            <div>
+                <label for="email">E-mail: </label>
+                <input type="text" name="email" id="email">
+            </div>
+            <br>
+            <div>
+                <label for="sex">Sex: </label>
+                <input type="radio" value="Male" name="sex">
+                <label for="Male">Male</label>
+                <input type="radio" value="Female" name="sex">
+                <label for="Female">Female</label>
+                <input type="radio" value="Other" name="sex">
+                <label for="Other">Other</label>
+            </div>
+            <br>
+            <div>
+                <label for="Birthday">Birthday: </label>
+                <input type="date" name="birthday" id="birthday">
+            </div>
+        </fieldset>
+        <br>
+        <br>
+        <div id="commentSect">
+            <label for="Comments">Comments:</label>
+            <textarea name="Comments" id="" cols="30" rows="10"></textarea>
         </div>
-    </main>
+        <h1>Choose Your Favorite Sports</h1>
+        <label for="Sports">Favorite Sports: </label>
+        <input type="text" name="Sports" id="Sports">
+        <h1>Choose Your Favorite Sports</h1>
+        <div>
+            <input type="checkbox" name="Football" id="footballCB" value="Football">
+            <label for="Football">Football</label>
+        </div>
+        <div>
+            <input type="checkbox" name="Basketball" id="basketballCB" value="Basketball">
+            <label for="Basketball">Basketball</label>
+        </div>
+        <div>
+            <input type="checkbox" name="Soccer" id="soccerCB" value="Soccer">
+            <label for="Scoccer">Soccer</label>
+        </div>
+            <input type="checkbox" name="Tennis" id="TennisCB" value="Tennis">
+            <label for="Tennis">Tennis</label>
+        </div>
+        <div>
+            <input type="checkbox" name="Swimming" id="SwimmingCB" value="Swimming">
+            <label for="Swimming">Swimming</label>
+        </div>
+        <br>
+        <br>
+        <button type="submit">Send</button>
+        <button type="reset">Reset</button>
+    </form>
 </body>
 </html>

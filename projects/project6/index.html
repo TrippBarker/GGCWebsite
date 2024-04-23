@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Book Your Flight</h1>
+    <form action="">
+        <fieldset>
+            <legend>Passenger information</legend>
+            <div>
+                <label for="fName">First Name: </label>
+                <input type="text" name="fName" id="fName">
+            </div>
+            <br>
+            <div>
+                <label for="lName">Last Name: </label>
+                <input type="text" name="lName" id="lName">
+            </div>
+            <br>
+            <div>
+                <label for="email">E-mail: </label>
+                <input type="text" name="email" id="email">
+            </div>
+            <br>
+            <div>
+                <label for="sex">Sex: </label>
+                <input type="radio" value="Male" name="sex">
+                <label for="Male">Male</label>
+                <input type="radio" value="Female" name="sex">
+                <label for="Female">Female</label>
+                <input type="radio" value="Other" name="sex">
+                <label for="Other">Other</label>
+            </div>
+            <br>
+            <div>
+                <label for="Birthday">Birthday: </label>
+                <input type="date" name="birthday" id="birthday">
+            </div>
+            <br>
+            <div>
+                <label for="From">From:</label>
+                <select name="From" id="fromDD">
+                    <option value="" disabled selected>Select depature</option>
+                    <option value="ATL">ATL</option>
+                    <option value="BOS">BOS</option>
+                    <option value="CLT">CLT</option>
+                    <option value="DTW">DTW</option>
+                    <option value="EWR">EWR</option>
+                    <option value="HOU">HOU</option>
+                    <option value="IAD">IAD</option>
+                    <option value="JFK">JFK</option>
+                    <option value="LAX">LAX</option>
+                    <option value="ORD">ORD</option>
+                    <option value="SFO">SFO</option>
+                </select>
+                <label for="To">To:</label>
+                <select name="To" id="toDD">
+                    <option value="" disabled selected>Select destination</option>
+                    <option value="ATL">ATL</option>
+                    <option value="BOS">BOS</option>
+                    <option value="CLT">CLT</option>
+                    <option value="DTW">DTW</option>
+                    <option value="EWR">EWR</option>
+                    <option value="HOU">HOU</option>
+                    <option value="IAD">IAD</option>
+                    <option value="JFK">JFK</option>
+                    <option value="LAX">LAX</option>
+                    <option value="ORD">ORD</option>
+                    <option value="SFO">SFO</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="Dparting">Departing:</label>
+                <input type="date" name="Departing" id="departing">
+                <label for="Returning">Returning:</label>
+                <input type="date" name="Returning" id="returning">
+            </div>
+            <br>
+            <div>
+                <label for="Checkedbags">Checked Bag: </label>
+                <select name="Checkedbags" id="checkedBagDD">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+            </div>
+        </fieldset>
+        <br>
+        <label for="insurance">Travel Insurance: </label>
+        <input type="radio" value="Yes" name="insurance" checked>
+        <label for="insurance">Yes</label>
+        <input type="radio" value="No" name="insurance">
+        <label for="insurance">No</label>
+        <h1>Special Services</h1>
+        <div>
+            <input type="checkbox" name="accessibility" id="accessibilityCB" value="accessibility">
+            <label for="accessibility"> Airport Accessibility</label>
+        </div>
+        <div>
+            <input type="checkbox" name="assistance" id="assistanceCB" value="assistance">
+            <label for="assistance">In-flight Assistance</label>
+        </div>
+        <div>
+            <input type="checkbox" name="tty" id="ttyCB" value="tty">
+            <label for="tty">TTY Device for Deaf</label>
+        </div>
+            <input type="checkbox" name="safety" id="safetyCB" value="safety">
+            <label for="safety">Safety Assistance</label>
+        </div>
+        <br>
+        <br>
+        <button type="submit">Purchase</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
