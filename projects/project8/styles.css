@@ -1,0 +1,56 @@
+body {
+    margin: 10rem;
+    margin-top: 0;
+    padding-top: none;
+    background-color: #5280c5;
+}
+
+header {
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: none;
+    padding: none;
+}
+
+header h1 {
+    margin: 0;
+    margin-bottom: none;
+    text-align: center;
+    font-size: 3rem;
+    width: 100%;
+    padding: 3rem;
+    color: white;
+    text-shadow: lightgrey 3px 3px 3px;
+    background-color: #000066;
+    background-image: url("resources/header.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    font-family: Verdana, sans-serif;
+    margin-top: none;
+    padding: 3rem;
+    background-color: white;
+    color: #000066;
+}
+
+main h2 {
+    font-size: 2rem;
+}
+
+.item img {
+    width: 10rem;
+}
+
+fieldset div {
+    margin-bottom: .5rem;
+}
+
+#buttons {
+    margin-top: 1rem;
+}

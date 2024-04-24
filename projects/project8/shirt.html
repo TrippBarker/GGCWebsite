@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Fish Creek Animal Clinic</h1>
+    </header>
+    <main>
+        <h2>Shop at Fish Creek</h2>
+        <div class="item">
+            <img src="resources/fishshirt.jpg" alt="An image of a fish shirt">
+            <p>Cast a net of style with our Fish Shirt! Dive into fashion with our finely crafted shirts featuring vibrant, aquatic-inspired designs. 100% cotton. $29.95</p>
+        </div>
+        <form action="">
+            <fieldset>
+                <legend>Your order:</legend>
+                <div>
+                    <label for="size">Size: </label>
+                    <select name="size" id="size">
+                        <option value="" selected>Select size</option>
+                        <option value="XL">XL</option>
+                        <option value="L">L</option>
+                        <option value="M">M</option>
+                        <option value="S">S</option>
+                        <option value="XS">XS</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="color">Color: </label>
+                    <select name="color" id="color">
+                        <option value="" selected>Select color</option>
+                        <option value="White">White</option>
+                        <option value="Black">Black</option>
+                        <option value="Blue">Blue</option>
+                        <option value="Green">Green</option>
+                        <option value="Grey">Grey</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="quantity">Quantity (Max 5): </label>
+                    <select name="quantity" id="quantity">
+                        <option value="" selected>Select quantity</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Shipping Address:</legend>
+                <div>
+                    <label for="fname">First Name: </label>
+                    <input type="text" name="fname" id="fname">
+                    <label for="lname">Last Name: </label>
+                    <input type="text" name="lname" id="lname">
+                </div>
+                <div>
+                    <label for="email">E-mail: </label>
+                    <input type="text" name="email" id="email">
+                </div>
+                <div>
+                    <label for="address">Address: </label>
+                    <input type="text" name="address" id="address">
+                </div>
+                <div>
+                    <label for="city">City: </label>
+                    <input type="text" name="city" id="city">
+                    <label for="state">State: </label>
+                    <select name="state" id="state">
+                        <option value="" selected>Select State</option>
+                        <option value="AL">AL</option>
+                        <option value="AK">AK</option>
+                        <option value="AR">AR</option>
+                        <option value="AZ">AZ</option>
+                        <option value="CA">CA</option>
+                        <option value="CO">CO</option>
+                        <option value="CT">CT</option>
+                        <option value="DE">DE</option>
+                        <option value="FL">FL</option>
+                        <option value="GA">GA</option>
+                        <option value="HI">HI</option>
+                        <option value="ID">ID</option>
+                        <option value="IL">IL</option>
+                        <option value="IN">IN</option>
+                        <option value="IA">IA</option>
+                        <option value="KS">KS</option>
+                        <option value="KY">KY</option>
+                        <option value="LA">LA</option>
+                        <option value="ME">ME</option>
+                        <option value="MD">MD</option>
+                        <option value="MA">MA</option>
+                        <option value="MI">MI</option>
+                        <option value="MN">MN</option>
+                        <option value="MS">MS</option>
+                        <option value="MO">MO</option>
+                        <option value="MT">MT</option>
+                        <option value="NE">NE</option>
+                        <option value="NV">NV</option>
+                        <option value="NH">NH</option>
+                        <option value="NJ">NJ</option>
+                        <option value="NM">NM</option>
+                        <option value="NY">NY</option>
+                        <option value="NC">NC</option>
+                        <option value="ND">ND</option>
+                        <option value="OH">OH</option>
+                        <option value="OK">OK</option>
+                        <option value="OR">OR</option>
+                        <option value="PA">PA</option>
+                        <option value="RI">RI</option>
+                        <option value="SC">SC</option>
+                        <option value="SD">SD</option>
+                        <option value="TN">TN</option>
+                        <option value="TX">TX</option>
+                        <option value="UT">UT</option>
+                        <option value="VT">VT</option>
+                        <option value="VA">VA</option>
+                        <option value="WA">WA</option>
+                        <option value="WV">WV</option>
+                        <option value="WI">WI</option>
+                        <option value="WY">WY</option>
+                    </select>
+                    <label for="zip">Zip Code: </label>
+                    <input type="text" name="zip" id="zip">
+                </div>
+                <div>
+                    <label for="shipping">Shipping: </label>
+                    <input type="radio" value="std" name="shipping" checked>
+                    <label for="shipping">Standard(Free)</label>
+                    <input type="radio" value="exp" name="shipping">
+                    <label for="shipping">Expedited($10.00)</label>
+                </div>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Payment:</legend>
+                <div>
+                    <label for="billingAddress">Billing Address: </label>
+                    <input type="text" name="billingAddress" id="billingAddress">
+                </div>
+                <div>
+                    <label for="city">City: </label>
+                    <input type="text" name="city" id="city">
+                    <label for="state">State: </label>
+                    <select name="state" id="state">
+                        <option value="" selected>Select State</option>
+                        <option value="AL">AL</option>
+                        <option value="AK">AK</option>
+                        <option value="AR">AR</option>
+                        <option value="AZ">AZ</option>
+                        <option value="CA">CA</option>
+                        <option value="CO">CO</option>
+                        <option value="CT">CT</option>
+                        <option value="DE">DE</option>
+                        <option value="FL">FL</option>
+                        <option value="GA">GA</option>
+                        <option value="HI">HI</option>
+                        <option value="ID">ID</option>
+                        <option value="IL">IL</option>
+                        <option value="IN">IN</option>
+                        <option value="IA">IA</option>
+                        <option value="KS">KS</option>
+                        <option value="KY">KY</option>
+                        <option value="LA">LA</option>
+                        <option value="ME">ME</option>
+                        <option value="MD">MD</option>
+                        <option value="MA">MA</option>
+                        <option value="MI">MI</option>
+                        <option value="MN">MN</option>
+                        <option value="MS">MS</option>
+                        <option value="MO">MO</option>
+                        <option value="MT">MT</option>
+                        <option value="NE">NE</option>
+                        <option value="NV">NV</option>
+                        <option value="NH">NH</option>
+                        <option value="NJ">NJ</option>
+                        <option value="NM">NM</option>
+                        <option value="NY">NY</option>
+                        <option value="NC">NC</option>
+                        <option value="ND">ND</option>
+                        <option value="OH">OH</option>
+                        <option value="OK">OK</option>
+                        <option value="OR">OR</option>
+                        <option value="PA">PA</option>
+                        <option value="RI">RI</option>
+                        <option value="SC">SC</option>
+                        <option value="SD">SD</option>
+                        <option value="TN">TN</option>
+                        <option value="TX">TX</option>
+                        <option value="UT">UT</option>
+                        <option value="VT">VT</option>
+                        <option value="VA">VA</option>
+                        <option value="WA">WA</option>
+                        <option value="WV">WV</option>
+                        <option value="WI">WI</option>
+                        <option value="WY">WY</option>
+                    </select>
+                    <label for="zip">Zip Code: </label>
+                    <input type="text" name="zip" id="zip">
+                </div>
+                <div>
+                    <label for="card">Card Number: </label>
+                    <input type="text" name="card" id="card">
+                    <label for="expiration">Expiration Date: </label>
+                    <input type="date" name="expiration" id="expiration">
+                </div>
+            </fieldset>
+            <div id="buttons">
+                <button type="submit">Place Order</button>
+                <button type="reset">Reset</button>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
